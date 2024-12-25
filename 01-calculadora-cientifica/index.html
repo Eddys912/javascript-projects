@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora Científica | FX-912ED</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="calculator.js" refer></script>
+  </head>
+  <body>
+    <div class="calculator dark">
+      <header>
+        <section>
+          <h1>EDDYS</h1>
+          <p>FX-912EDX</p>
+        </section>
+        <section class="theme">
+          <button class="btn-theme theme-light"></button>
+          <button class="btn-theme theme-tech"></button>
+          <button class="btn-theme theme-dark"></button>
+        </section>
+      </header>
+
+      <section class="display">
+        <p class="operation"></p>
+        <input type="text" id="display" placeholder="0" readonly />
+      </section>
+
+      <main>
+        <section class="memory">
+          <button>DEG</button>
+          <button>MC</button>
+          <button>MR</button>
+          <button>MS</button>
+          <button>M+</button>
+          <button>M-</button>
+        </section>
+
+        <section class="function">
+          <button class="btn-function">x&sup2;</button>
+          <button class="btn-function">x&sup3;</button>
+          <button class="btn-function">x<sup>y</sup></button>
+          <button class="btn-function">sin</button>
+          <button class="btn-function">cos</button>
+          <button class="btn-function">tan</button>
+          <button class="btn-function">&radic;</button>
+          <button class="btn-function">&#8731;</button>
+          <button class="btn-function"><sup>y</sup>&radic;</button>
+          <button class="btn-function">sin<sup>-1</sup></button>
+          <button class="btn-function">cos<sup>-1</sup></button>
+          <button class="btn-function">tan<sup>-1</sup></button>
+          <button class="btn-function">log</button>
+          <button class="btn-function">ln</button>
+          <button class="btn-function">(</button>
+          <button class="btn-function">)</button>
+          <button class="btn-function">exp</button>
+          <button class="btn-function">n!</button>
+          <button class="btn-function">&pi;</button>
+          <button class="btn-function">e</button>
+        </section>
+
+        <section class="basic">
+          <button class="btn-number">7</button>
+          <button class="btn-number">8</button>
+          <button class="btn-number">9</button>
+          <button id="btn-ac">AC</button>
+          <button id="btn-del">DEL</button>
+          <button class="btn-number">4</button>
+          <button class="btn-number">5</button>
+          <button class="btn-number">6</button>
+          <button class="btn- btn-operator">x</button>
+          <button class="btn- btn-operator">÷</button>
+          <button class="btn-number">1</button>
+          <button class="btn-number">2</button>
+          <button class="btn-number">3</button>
+          <button class="btn-operator">+</button>
+          <button class="btn-operator">-</button>
+          <button class="btn-number">0</button>
+          <button id="btn-dot">.</button>
+          <button class="btn-operator">%</button>
+          <button id="btn-equal">=</button>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
